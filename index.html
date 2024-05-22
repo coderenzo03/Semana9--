@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pensión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="banner">
+            <img src="prima-afp.png" alt="Banner">
+        </div>
+        <div class="gender-container">
+            <div class="gender-box">
+                <label>
+                    <input type="radio" name="gender" value="Hombre" checked> Hombre
+                </label>
+            </div>
+            <div class="gender-box">
+                <label>
+                    <input type="radio" name="gender" value="Mujer"> Mujer
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" placeholder="Edad">
+        </div>
+        <div class="form-group">
+            <label for="ingresoMensual">Ingreso mensual:(S/)</label>
+            <input type="number" id="ingresoMensual" placeholder="Ingreso mensual">
+        </div>
+        <div class="form-group">
+            <label for="fondoactual">Saldo actual (S/) : </label>
+            <input type="number" id="fondoactual" placeholder="Saldo actual">
+        </div>
+        <button id="calculateButton">Calcular Pensión</button>
+        <div class="results">
+            <div id="pensionEstimada" class="box">
+                Pensión estimada: S/ <span id="estimadopension">0.00</span>
+            </div>
+            <div id="fondoEstimado" class="box">
+                Fondo estimado: S/ <span id="estimadofondo">0.00</span>
+            </div>
+            <div id="saldoActual" class="box">
+                Saldo actual: S/ <span id="saldoactual">0.00</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Calculadora de Pensión</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

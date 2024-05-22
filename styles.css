@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.calculator {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.gender-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-direction: row;
+}
+
+.gender-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.gender {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gender label {
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#calculateButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#calculateButton:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.results p {
+    margin: 0;
+}
+
+.results h1 {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-direction: row; 
+}
+
+#initialMessage {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
